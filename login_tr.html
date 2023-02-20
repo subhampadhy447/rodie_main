@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+</link>
+    </head>
+    <head>
+    <title>Rodie</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0px;
+
+        }
+        .main{
+            width: 100%;
+            background: linear-gradient(to top,rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%),url("3.jpg");
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+        }
+        .content{
+            width: 1200px;
+            height: auto;
+            width: auto;
+            position: relative;
+            color: rgb(236, 179, 104);
+        }
+        #para{
+            padding-left: 20px;
+            padding-bottom: 25px;
+            font-family: Arial, Helvetica, sans-serif;
+            letter-spacing: 1.2px;
+            line-height: 30px;
+            color: white;
+        }
+        .content{
+            font-family: 'Times New Roman';
+    font-size: 24px;
+    padding-left: 20px;
+    margin-top: 0%;
+    letter-spacing: 2px;
+}
+#know{
+    border-radius: 8px;
+    border:none;
+    color:rgb(236, 143, 37);
+    width: 100px;
+    height: 20px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 18px;
+    background-color: rgb(252, 133, 54);
+    transition: .4s ease;
+
+}
+#know a{
+    text-decoration: none;
+    color: black;
+    transition: .3s ease;
+}
+#know :hover{
+    background-color: white;
+
+}
+.form{
+    width: 250px;
+    height: 380px;
+    background: linear-gradient(to top,rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%);
+    top: 200px;
+    left: 960px;
+    position: absolute;
+    border-radius: 10px;
+    padding: 25px;
+
+}
+.form h2{
+    width: 160px;
+    text-align: center;
+    font-family: 'Pacifico';
+    color: rgb(255, 169, 9);
+    background-color:transparent;
+    font-size: 32px;
+    margin: 2px;
+    border-radius: 10px;
+    padding: 2px;
+    
+}
+.form input{
+    width: 240px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 1px solid orange;
+    border-right: none;
+    border-top: none;
+    border-right:none; 
+    color: white;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: sans-serif;
+
+}
+#pass{
+    width: 240px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 1px solid orange;
+    border-right: none;
+    border-top: none;
+    border-right:none; 
+    color: white;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: sans-serif;
+
+ }
+ #pass:focus{
+     outline: none;
+
+
+ }
+ #pass ::placeholder{
+     font-family: Arial;
+ }
+ .btn{
+     width: 240px;
+     height: 40px;
+     background-color: orange;
+     border: none;
+     margin-top: 30px;
+     font-size: 18px;
+     border-radius: 15px;
+     cursor: pointer;
+     color: white;
+
+
+ }
+ .btn :hover{
+     background: white;
+     color: orange;
+ }
+ .btn a{
+     text-decoration: none;
+     font-weight: bolder;
+     color: black;
+ }
+ .link{
+     font-family: Arial, Helvetica, sans-serif;
+     font-size: 17px;
+     color: white;
+     padding-top: 20px;
+     text-align: center;
+ }
+ #sign{
+     text-decoration: none;
+     color: orange;
+     text-align: center;
+
+ }
+.liw{
+    padding-top: 15px;
+    padding-bottom: 10px;
+    color: white;
+    text-align: center;
+
+}
+.icon a{
+    text-decoration: none;
+    color: white;
+}
+.icon ion-icon{
+    padding-left: 14px;
+    color: white;
+    font-size: 30px;
+    padding-top: 4px;
+}
+.icon ion-icon:hover{
+    color: orange;
+
+}
+
+
+
+
+
+
+
+
+
+    </style>
+</head>
+<body>
+    <div class="main">
+        
+        <div id="conh" class="content">
+            <h1>Welcome to Roadie <br></h1>
+            <p id="para">Explore your life with  roverx .<br>Find new way 
+                 to connect with friends . </p>
+            <button id="know" ><a href="#">know more</a></button>
+        
+        </div>
+        <div class="form">
+            <h2>Roadie</h2>
+            <input type="email" name="email" placeholder="Enter Email Here">
+            <input type="password" name="password" placeholder="Enter Password"  id="pass">
+            <button class="btn"><a href="index.html">Login</a></button>
+            <p class="link">Don't have an account<br>
+            <a id="sign"href="#">Sign up Here</a></p>
+            <p class="liw">Login with</p>
+            <div class="icon">
+               
+                <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
+                <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
+                <a href="#"><ion-icon name="logo-twitter"></ion-icon></a>
+                <a href="#"><ion-icon name="logo-google"></ion-icon></a>
+                
+
+            </div>
+            
+    
+           
+        </div>
+
+    </div>
+    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+    
+</body>
+</html>
